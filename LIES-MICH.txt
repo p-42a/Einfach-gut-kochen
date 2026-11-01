@@ -1,0 +1,26 @@
+EINFACH GUT KOCHEN – installierbare Web-App (PWA)
+
+Inhalt
+  index.html            die App
+  manifest.webmanifest  Name, Farben, Icons
+  sw.js                 Service Worker (Offline-Nutzung)
+  icons/                App-Icons
+
+So bringst du die App online (alles gratis möglich)
+  Netlify Drop:  app.netlify.com/drop  -> ZIP-Datei oder entpackten Ordner ins Fenster ziehen.
+  GitHub Pages:  alle Dateien in ein Repository legen, Pages aktivieren.
+  Cloudflare Pages / Vercel: Ordner hochladen oder Repository verbinden.
+Wichtig: Die Seite muss über https:// erreichbar sein, sonst ist keine Installation möglich.
+
+Installieren
+  Android/Chrome:  Menü (drei Punkte) -> "App installieren" bzw. "Zum Startbildschirm".
+  iPhone/Safari:   Teilen-Symbol -> "Zum Home-Bildschirm".
+  Desktop/Chrome/Edge: Installieren-Symbol in der Adressleiste.
+
+Updates
+  Nach Änderungen an index.html in sw.js die Zahl bei CACHE ("kochbuch-v12" -> "kochbuch-v13")
+  erhöhen und alles neu hochladen.
+
+Daten
+  Rezepte, Bilder, Konto und Einkaufsliste liegen im Browser des jeweiligen Geräts
+  (pro Adresse). Ein Geräte- oder Adresswechsel nimmt sie nicht mit.
