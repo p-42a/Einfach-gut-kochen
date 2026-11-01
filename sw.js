@@ -1,6 +1,6 @@
 // Service Worker: App-Dateien werden zwischengespeichert, die App läuft danach offline.
 // Bei jeder Änderung an index.html die Versionsnummer erhöhen, damit Nutzer das Update bekommen.
-const CACHE = "kochbuch-v29";
+const CACHE = "kochbuch-v30";
 const FILES = ["./", "index.html", "manifest.webmanifest",
   "icons/icon-192.png", "icons/icon-512.png", "icons/icon-maskable-512.png", "icons/apple-touch-icon.png"];
 
